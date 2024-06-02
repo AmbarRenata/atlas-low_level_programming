@@ -3,28 +3,23 @@
 /**
  * main - print all the numbers of base 16 in lowercase
  * followed by a new line
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int n;
-	int m;
+	char n;
+	char m;
 
-	n = 0;
-	m = 'a';
-
-	while
-		(n <= '9');
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
-		n++;
-	} while
-		(m <= 'f');
+	}
+	for (m = 'a'; m <= 'f'; m++)
 	{
 		putchar(m);
-		m++;
 	}
 	putchar('\n');
+
 	return (0);
 }
