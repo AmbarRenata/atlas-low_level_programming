@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int n;
+	char n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
@@ -17,7 +17,6 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		n++;
 	}
 	putchar('\n');
 	return (0);
